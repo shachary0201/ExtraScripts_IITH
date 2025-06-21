@@ -1,5 +1,5 @@
 void Ex1(){
-TFile *f = TFile::Open("tree_12.root");
+TFile *f = TFile::Open("/eos/user/c/cmsdas/long-exercises/MonoZ/CMSDAS_NTuples/WZTo2L2Q_13TeV_amcatnloFXFX_madspin_pythia8/tree_17.root");
 TTree *tree = (TTree*)f->Get("Events");
 
 float Electron_pt[10]; //try with 10                                                                                                                                                                                                          
